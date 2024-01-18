@@ -2,6 +2,7 @@
 
 export const sendToken = async (user, res, statusCode) => {
   const token = user.getJWTToken();
+  // const token = jwt.sign(user.id  , process.env.JWT_Secret , { expiresIn : process.env.JWT_Expire});
   const cookieOptions = {
     expires: new Date(
       Date.now() + process.env.COOKIE_EXPIRES_IN * 24 * 60 * 60 * 1000
