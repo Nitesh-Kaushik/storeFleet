@@ -9,7 +9,7 @@
     "start": "node backend/server.js",
     "dev": "nodemon backend/server.js"
   },
-  "author": "",
+  "author": "Nitesh Kaushik",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
